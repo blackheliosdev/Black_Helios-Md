@@ -2,8 +2,11 @@
 <h1 align="center"> 𝐁𝐋𝐀𝐂𝐊 𝐇𝐄𝐋𝐈𝐎𝐒 </h1>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=BLACK+HELIOS+Md+BY+Black+Helios+Dev)](https://git.io/typing-svg)
+<p align="center">
+<p align="center">
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝+**BLACK-HELIOS-MD**+★⃝•;MULTI-DEVICE+WHATSAPP+BOT;BY+BLACK+HELIOS+DEV+🚀;RELEASED+DATE+7%2F9%2F2024+✨;EXPLORE+OUR+FEATURES;AND+**FORK+THE+REPO**+⭐" alt="Typing SVG" />
+</a>
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
