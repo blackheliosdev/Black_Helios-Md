@@ -1,0 +1,54 @@
+{
+  "__JSON__": true,
+  "AUTHOR": "Black Helios Dev",
+  "theme": "Black_Helios-Md",
+  "LANGUAGE": "English",
+  "LANGCODE": "en",
+  "STRINGS": {
+    "updater": {
+      "UPDATE": "Black Helios is up to date.",
+      "UPDATED_LOCAL": "Updated Black Helios successfully"
+    },
+    "global": {
+      "botName": "Black_Helios-Md",
+      "body": "Advanced WhatsApp MD Bot",
+      "greet2": "Good Day Sir!",
+      "pic1": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg", 
+      "pic2": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg", 
+      "pic3": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg", 
+      "pic4": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg", 
+      "pic5": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg", 
+      "pic6": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg", 
+      "pic7": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg",
+      "greet": "Hey there!",
+      "dotbody": "Oh Sir, Black Helios is here, your trusty creation.",
+      "emoji": "☀️", 
+      "promote": "ADMIN ROLE TO BLACK HELIOS",
+      "pmallow": "Hello &user, please do not spam.",
+      "permited": "Hello Sir, you can message me now.", 
+      "revoked": "Hello sir, your permission was rejected.",
+      "demote": "Admin role taken back",
+      "antlink": "Link detected. The violator has been removed.",
+      "session": "Keep your session ID safe, Sir.",
+      "mention": "Tag my owner",
+      "title": "BLACK HELIOS",
+      "footer": "BLACK HELIOS",
+      "by": "Made by: Black Helios Dev",
+      "chat_desc": "Available options: 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+      "success": "Completed ✓",
+      "dot": "Hi, Did you mean *-help?*\n Just don't interrupt me while I'm enjoying the sun.",
+      "couple_male": "I can't live without a bit of help!",
+      "couple_female": "I can't live without a bit of help!",
+      "admin": "Only group admins can use this command.",
+      "botAdmin": "Make me an admin to execute this command.",
+      "owner": "This is reserved for my owner.",
+      "group": "For group use only.",
+      "private": "This is for my owner only.",
+      "bot": "This command is reserved for my owner.",
+      "wait": "Hold on, processing..."
+    },
+    "error": {
+      "text": "Do not interfere with me."
+    }
+  }
+}
