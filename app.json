@@ -1,0 +1,184 @@
+{
+  "name": "Black Helios",
+  "description": "Advanced WhatsApp Bot with customizable features",
+  "logo": "https://telegra.ph/file/4d9e5af46fa726c8646f4.jpg",
+  "keywords": ["Black Helios", "Black-Helios md", "Helios md", "Helios bot", "Black_Helios-Md"],
+  "success_url": "/",
+  "stack": "container",
+
+  "env": {
+    "OWNER_NAME": {
+      "description": "Name for Bot Owner",
+      "value": "Black Helios Dev",
+      "required": true
+    },
+    "WELCOME": {
+      "description": "Enable/Disable Welcome Messages (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Custom welcome message for new users. Use '@username' to mention the user.",
+      "value": "Welcome to the group, @username! Enjoy your stay.",
+      "required": false
+    },
+    "GOODBYE": {
+      "description": "Enable/Disable Goodbye Messages (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "GOODBYE_MESSAGE": {
+      "description": "Custom goodbye message for users leaving. Use '@username' to mention the user.",
+      "value": "Goodbye, @username! We'll miss you.",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Name of the Bot",
+      "value": "Black_Helios-Md",
+      "required": false
+    },
+    "TZ": {
+      "description": "Set Time Zone",
+      "value": "Africa/Lagos",
+      "required": false
+    },
+    "READ_COMMAND": {
+      "description": "Enable/Disable reading bot commands",
+      "value": "true",
+      "required": false
+    },
+    "COMMAND_RESPONSE": {
+      "description": "Bot response for valid commands",
+      "value": "Black Helios has completed your command.",
+      "required": false
+    },
+    "COMMAND_PREFIXES": {
+      "description": "Enter multiple prefixes for bot commands. Separate by commas (e.g., .,!,?)",
+      "value": ".",
+      "required": false
+    },
+    "WARN_COUNT": {
+      "description": "Set the warning count for users to be kicked/blocked when the warn limit is exceeded",
+      "value": "3",
+      "required": false
+    },
+    "AUTO_SAVE_STATUS": {
+      "description": "Enable/Disable auto-saving of WhatsApp statuses",
+      "value": "false",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Put Your Heroku API Key Here",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Put Your Heroku App Name Here",
+      "value": "",
+      "required": true
+    },
+    "WAPRESENCE": {
+      "description": "Set bot status: 'unavailable', 'available', 'composing', 'recording', or 'paused'",
+      "value": "recording",
+      "required": false
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Enable/Disable automatic viewing of statuses by the bot (true/false)",
+      "value": "true",
+      "required": false
+    },
+    "LOG_LEVEL": {
+      "description": "Set logging level: 'info', 'warn', 'error', or 'debug'",
+      "value": "info",
+      "required": false
+    },
+    "MSGS_IN_LOG": {
+      "description": "Enable/Disable logging of messages (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "OPEN_API_KEY": {
+      "description": "Put your OPEN_API_KEY here to access ChatGPT",
+      "value": "sk-proj-1OXigIjDK8D0kcA79HdeT3BlbkFJEDHPpT2duPSj9OSpIEd0",
+      "required": false
+    },
+    "READ_MESSAGE": {
+      "description": "Enable/Disable reading of all messages by the bot (true/false)",
+      "value": "false",
+      "required": false
+    },
+    "DISABLE_PM": {
+      "description": "Enable/Disable private messaging (false to allow bot in private chats)",
+      "value": "false",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Enter your desired prefix for bot commands (use multiple prefixes separated by commas)",
+      "value": ".",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Phone number(s) of bot admin(s), in international format without +, separated by commas",
+      "value": "2348094718285",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Enter your SESSION_ID here.",
+      "value": "",
+      "required": false
+    },
+    "MODE": {
+      "description": "Work mode for bot. Set to 'public' or 'private'. Public allows everyone to use it.",
+      "value": "public",
+      "required": false
+    },
+    "PACK_NAME": {
+      "description": "Name of sticker pack",
+      "value": "Black Helios Pack",
+      "required": false
+    },
+    "PACK_AUTHER": {
+      "description": "Author of the sticker pack",
+      "value": "Black Helios Dev",
+      "required": false
+    },
+    "ERROR_COMMAND": {
+      "description": "Message for unrecognized commands",
+      "value": "Black Helios doesn’t understand this yet.",
+      "required": false
+    },
+    "SCHEDULER_ENABLED": {
+      "description": "Enable/Disable built-in scheduler for automated tasks",
+      "value": "true",
+      "required": false
+    },
+    "DYNAMIC_PREFIX_ENABLED": {
+      "description": "Allow users to dynamically change the command prefix",
+      "value": "true",
+      "required": false
+    }
+  },
+
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
