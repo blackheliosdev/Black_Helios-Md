@@ -38,7 +38,7 @@
 
 2. Get Session ID (By pairing code)
    > 
-     <a href='https://blackhelios-pair.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+     <a href='[https://blackhelios-pair.onrender.com/pair](https://black-helios-dev.onrender.com/)' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 3. Deploy on Heroku
     <br>
