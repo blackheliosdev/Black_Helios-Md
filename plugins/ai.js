@@ -453,7 +453,7 @@ const {
       alias: ["imagin"],
       desc: "chat with an AI",
       category: "ai",
-      use: "<boy walking on street>",
+      use: "<boy caught on a huge spiderweb>",
       filename: __filename,
     },
     async (_0x9bac01, _0x3700d4) => {
@@ -527,7 +527,7 @@ const {
       alias: ["imagin2"],
       desc: "chat with an AI",
       category: "ai",
-      use: "<boy walking on street>",
+      use: "<boy caught on a huge spiderweb>",
       filename: __filename,
     },
     async (_0x39716c, _0xe79cfd) => {
@@ -619,7 +619,7 @@ const {
       pattern: "aitts",
       desc: "Text to Voice Using Eleven Lab Ai",
       category: "ai",
-      use: "<Hii, Astro>",
+      use: "<Hii, black helios dev>",
       filename: __filename,
     },
     async (_0x1a01af, _0x1ac85a) => {
@@ -645,7 +645,7 @@ const {
       alias: ["recognition", "anonychat"],
       desc: "Send message Annonymously",
       category: "ai",
-      use: "<Hii, Astro>",
+      use: "<Hii, blackheliosdev>",
       filename: __filename,
     },
     async (_0x358984, _0x20693a, { smd: _0x12d243 }) => {
@@ -689,7 +689,7 @@ const {
           _0x3079e2.msgStatus = true;
           _0x3079e2.senderMsg = _0x358984;
           _0x5f656f =
-            "*ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+            "*Black_Helios-Md • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
             _0x3079e2.id +
             "\n*Date:* _" +
             _0xbcd286 +
