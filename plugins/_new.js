@@ -14,13 +14,13 @@ let {
  smd(
   {
     pattern: "channel",
-    desc: "To check ping",
+    desc: "To join channel for updates and more info",
     react: "🗨️",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `TOPU 𝐓𝐄𝐂𝐇 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍E𝐋𝐄 𝐅𝐎𝐋𝐋𝐎𝐖 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊*:https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `Black_Helios-Md official whatsapp channel 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊*:https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
