@@ -39,7 +39,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `Black_Helios-Md official support group\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/BxelCdrHnDYBNfMy2jafgI\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `Black_Helios-Md official support group\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/CnL4SKp2nHz4DouYlapsss\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -145,7 +145,7 @@ smd(
  smd({
    cmdname: "test",
    alias: ["check", "checkbot"],
-   desc: "Check bot is active?",
+   desc: "test bot is active?",
    category: "misc",
    filename: __filename
  }, async _0x17bb63 => {
