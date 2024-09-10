@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `Black_Helios-Md official whatsapp channel 𝐑𝐄𝐐_\n *𝐋𝐈𝐍𝐊*:https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `Black_Helios-Md official whatsapp channel\n *𝐋𝐈𝐍𝐊*:https://www.whatsapp.com/channel/0029Vafxn8UAzNc2X8jUlL2w\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -32,14 +32,14 @@ let {
 );
 smd(
   {
-    pattern: "support",
-    desc: "To check ping",
+    pattern: "group",
+    desc: "To join bot wa group",
     react: "🗨️",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `TOPU 𝐌𝐃 𝐎𝐅𝐅𝐈𝐂𝐀𝐋 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/BxelCdrHnDYBNfMy2jafgI\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `Black_Helios-Md official support group\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/BxelCdrHnDYBNfMy2jafgI\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
